@@ -8,7 +8,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 // uri: "http://localhost:5001/"
 
 const httpLink = createHttpLink({
-	uri: "http://localhost:5001/",
+	uri: "https://react-shopping-list-server.herokuapp.com/",
 });
 
 const client = new ApolloClient({
