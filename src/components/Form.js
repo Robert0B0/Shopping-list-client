@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import QR from "../download.png";
+import QR from "../QRCODE.png";
 import { FaShoppingBasket } from "react-icons/fa";
 import { useMutation } from "@apollo/react-hooks";
 import { CREATE_ITEM_MUTATION, FETCH_ITEMS_QUERRY } from "../util/graphql";
